@@ -25,3 +25,20 @@ Este projeto é um bot em Python que monitora emails do Gmail com uma label espe
    ```bash
    git clone https://github.com/seu-usuario/gmail-alerts-telegram.git
    cd gmail-alerts-telegram
+Crie um arquivo .env na raiz do projeto com as seguintes variáveis (use seus próprios tokens e IDs):
+
+GMAIL_LABEL=Label_XXXXXXXXXXXX
+BOT_TOKEN=seu_token_do_bot_telegram
+CHAT_ID=seu_chat_id_telegram
+Instale as dependências:
+
+pip install -r requirements.txt
+Coloque o arquivo credentials.json (credenciais da API Google) na raiz do projeto.
+
+Execute o script:
+python seu_script.py
+
+Observações:
+O script salva um arquivo processados.txt para evitar envios duplicados.
+
+Desenvolvido por Allmeida
