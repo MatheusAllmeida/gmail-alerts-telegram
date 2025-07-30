@@ -18,12 +18,12 @@ Este projeto monitora automaticamente e-mails com uma label específica no Gmail
 ## 🧩 Estrutura do Repositório
 
 gmail-alerts-telegram/
-├── ba_bot.py # Script principal de monitoramento
-├── listar_labels.py # Lista todas as labels do Gmail
-├── .env.example # Exemplo de variáveis de ambiente
-├── .gitignore # Arquivos a serem ignorados no versionamento
-├── processados.txt # Controle de mensagens processadas
-└── README.md # Este arquivo
+- ba_bot.py # Script principal de monitoramento
+- listar_labels.py # Lista todas as labels do Gmail
+- .env.example # Exemplo de variáveis de ambiente
+- .gitignore # Arquivos a serem ignorados no versionamento
+- processados.txt # Controle de mensagens processadas
+- README.md # Este arquivo
 
 ---
 
